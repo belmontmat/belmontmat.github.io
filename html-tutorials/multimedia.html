@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Multimedia and Embeddings</title>
+  </head>
+  <body>
+    <h1>Links</h1>
+    
+      <h2>Task 1</h2>
+        <h3>Information on Whales</h3>
+          <p>
+            For more information on our conservation activities and which Whales we study,
+            see our <a target="_blank" href="whales.html" title="Includes information on Blue Whales and Sprem Whales"> Whales page</a>.
+          </p>
+          
+          <p>
+            If you want to ask our team more questions, feel free to
+            <a target="_blank" href="mailto:whales@example.com?subject=Question%20about%20Whales">email us</a>.
+          </p>
+      
+      <h2>Task 2</h2>
+        <h3>List path tests</h3>
+          <ul>
+            <li><a target="_blank" href="blue/blue-whale.jpg">Link me to the blue whale image</a></li>
+            <li><a target="_blank" href="../narwhal/narwhal.jpg">Link me to the narwhal image</a></li>
+            <li><a target="_blank" href="https://www.google.co.uk/imghp">Link me to Google image search</a></li>
+            <li><a href="#bottom">Link me to the paragraph at the bottom of the page</a></li>
+          </ul>
+          <div></div>
+  
+          <p id="bottom">The bottom of the page!</p>
+  
+      <h2>Task 3</h2>
+        <p>
+          We do lots of work with Narwhals. <a href="narwhals.html" target="_blank">Find out more about this work</a>.
+        </p>
+        
+        <p>
+          You can <a href="mailto:whales@example.com">email our support team</a> if you have any more questions.
+        </p>
+        
+        <p>
+          You can also <a href="factfile.pdf" target="_blank">download
+          our factfile</a> (PDF, 4MB), which contains lots more information, including an FAQ.
+        </p>
+
+    <h1>HTML Images</h1>
+    
+      <h2>Task 1</h2>
+        <h3>Basic image embed</h3>
+        <img src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/images/blueberries.jpg?raw=true"
+              alt="a pile of small blue berries"
+              width="400" />
+
+      <h2>Task 2</h2>
+        <h3>Basic image title</h3>
+        <img
+          src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/larch.jpg?raw=true"
+          alt="Several tall evergreen trees called larches"
+          title="And now, Number 1, The Larch" />
+
+    <h2>Task 3</h2>
+      <h3>Image and caption</h3>
+      <figure>
+        <img
+          src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/firefox.png?raw=true"
+          alt="An abstract flaming fox wrapping around a blue sphere"
+          width="446"
+          height="460" />
+        <figcaption>The 2019 Firefox logo</figcaption>
+      </figure>
+
+  <h1>Audio and video</h1>
+
+    <h2>Task 1</h2>
+      <h3>Basic audio embed</h3>
+      <audio
+        controls
+        src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/audio.mp3"></audio>
+
+    <h2>Task 2</h2>
+      <h3>Video embed</h3>
+
+      <video controls width="320" height="240" muted>
+        <source
+          src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4"
+          type="video/mp4" />
+        <source
+          src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.webm"
+          type="video/webm" />
+        <track
+          kind="subtitles"
+          src="https://raw.githubusercontent.com/mdn/learning-area/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/subtitles_en.vtt"
+          srclang="en"
+          label="English" />
+      </video>
+  </body>
+</html>
